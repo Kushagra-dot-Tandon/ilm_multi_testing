@@ -76,14 +76,14 @@ WSGI_APPLICATION = 'ilm_testing.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'postgres',
         'USER': 'postgres',
         'PASSWORD': 'maplelabs',
         'HOST': 'locahost',
     },
     'local': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'elasticsearch_manager',
         'USER': 'snappyflow',
         'PASSWORD': 'maplelabs',
@@ -91,7 +91,7 @@ DATABASES = {
         'PORT': '',
     },
     'snappyflow': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'snappyflow',
         'USER': 'snappyflow',
         'PASSWORD': 'maplelabs',

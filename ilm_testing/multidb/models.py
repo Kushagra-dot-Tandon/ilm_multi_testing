@@ -10,7 +10,7 @@ from django.db import models
 from jsonfield import JSONField
 from django_extensions.db.fields import (RandomCharField)
 from .fields import *
-from sf_crypto import EncryptedTextField
+from sf_crypto.encrypted import EncryptedTextField
 
 
 # ILM DATABASE - ELASTIC_SEARCH

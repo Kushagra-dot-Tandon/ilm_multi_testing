@@ -81,7 +81,7 @@ DATABASES = {
         'PASSWORD': 'maplelabs',
         'HOST': 'locahost',
     },
-    'elasticsearch_manager': {
+    'local': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'elasticsearch_manager',
         'USER': 'snappyflow',
